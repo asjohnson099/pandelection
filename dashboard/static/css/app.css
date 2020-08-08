@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+body {
+  background-color: #082032 !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.title-container h1 {
+  margin: 15px 130px;
+  text-align: center;
+  color: #819bae;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.call_to_action_state_data {
+  text-align: center;
+  padding: 25px 25px;
+}
+
+.call_to_action_state_data h4 {
+  text-align: center;
+  color: #819bae;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.call_to_action_state_data button {
+  color: #819bae;
+  margin: 0 auto;
+}
+
+.date_picker_container {
+  width: 355px;
+  height: 135px;
+  background-color: #0b3b5f;
+  border-radius: 4px;
+  margin-left: 65px;
+}
+
+#covidPicker {
+  margin-left: 95px;
+  margin-top: 10px;
+}
+
+.date_picker h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #819bae;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.date_picker h4 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #819bae;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.cases_by_state_container {
+  width: 355px;
+  height: 420px;
+  background-color: #0b3b5f;
+  border-radius: 4px;
+  margin-top: 25px !important;
+  margin-left: 65px;
+}
+
+.national_poll_container {
+  width: 355px;
+  height: 420px;
+  background-color: #0b3b5f;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-left: 65px;
+}
+
+.national_poll_container h2,
+.cases_by_state_container h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 24px;
+  color: #819bae;
+}
+
+.national_polling_counter h3,
+#national_case_container h3 {
+  margin-top: 55px;
+}
+
+.national_poll_container h3,
+.cases_by_state_container h3 {
+  text-align: center;
+  padding-top: 10px;
+  color: #819bae;
+}
+
+.map_container {
+  width: 1250px;
+  height: 1025px;
+  background-color: #0b3b5f;
+  margin-left: 380px;
+  position: absolute;
+  top: 78px;
+  border-radius: 4px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+#mapid {
+  height: 1005px;
+}
